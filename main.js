@@ -30,7 +30,7 @@ function my_keydown(e)
 keyPressed = e.keyCode;
 console.log(keyPressed);
 
-	if(keyPressed == '82') window.addEventListener("keydown", my_keydown);
+	if(keyPressed == '82')
 	{
 		new_image('rr1.png');
 		console.log("r");
